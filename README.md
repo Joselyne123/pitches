@@ -9,3 +9,19 @@ User can add a pitch to any category
 -  User can login into the application
 ## Setup/Installation Requirements
 Ensure that Python is installed on your machine if not please visit the python website and download the latest version python 3.6
+* Create a virtual environment using the following command
+```
+python3.6 -m venv --without-pip virtual
+```
+* then install the latest version of pip
+```
+curl https://bootstrap.pypa.io/get-pip.py | python
+```
+* activate your virtual environment using :
+```
+source virtual/bin/activate
+```
+* In start.sh file register your three environmental variables as follows :
+```
+export SECRET_KEY=<your-secret-key>
+```
