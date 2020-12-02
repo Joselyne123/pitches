@@ -41,7 +41,7 @@ class DevConfig(Config):
     Config: The parent configuration class with General configuration settings
     '''
 
-    SQLALCHEMY_DATABASE_URI = 'postgres://joselyne:dudu@:5432/picth'
+    SQLALCHEMY_DATABASE_URI = 'postgres://oselyne:dudu@:5432/picth'
     
     DEBUG = True
     ENV = 'development'
